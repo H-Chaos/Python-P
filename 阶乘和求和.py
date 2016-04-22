@@ -1,11 +1,11 @@
 #-------------------------------------------------------------------------------
-# Name:        濡€虫健1
+# Name:        婵☆垪鈧櫕鍋?
 # Purpose:
 #
-# Author:      閸忣剙鐡欑亸蹇氱Т
+# Author:      闁稿浚鍓欓悺娆戜焊韫囨氨孝
 #
 # Created:     20/04/2016
-# Copyright:   (c) 閸忣剙鐡欑亸蹇氱Т 2016
+# Copyright:   (c) 闁稿浚鍓欓悺娆戜焊韫囨氨孝 2016
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
@@ -25,6 +25,11 @@ def f(x):
         return 1
     else:
         return x*f(x-1)
+
+#jiecheng 3
+from functools import reduce
+g=int(input('nixiangjisuan de zhi:'))
+print(reduce(lambda x,y:x*y,range(1,g)))
 
 #qiuhe 1
 g=int(input("Please input the Sum what you want to calculate:"))
